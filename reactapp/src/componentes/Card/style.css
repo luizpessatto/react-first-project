@@ -1,0 +1,26 @@
+.card{
+    height: 70px;
+    width: 50%;
+
+    background: #C24C4C;
+    color: rgb(41, 16, 16);
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    transition: filter 0.2s;
+}
+.card:hover{
+    filter: brightness(0.92);
+}
+.card strong{
+    font-size: 18px;
+}
+
+.card strong, small{
+    background: none;
+}
